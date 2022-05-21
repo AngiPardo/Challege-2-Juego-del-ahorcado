@@ -1,0 +1,48 @@
+#colorDelBody{
+    background-color: black;
+}
+
+#logoIrreverente{
+    height: 325%;
+    width:25%;
+}
+
+.tituloPrincipal{
+    padding-left: 30px;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.bloque1{
+    position: absolute;
+    top: 90px;
+    right: 195px;
+    height: 90%;
+    width: 45%;
+}
+
+#condicionesRestriccionesDeUso{
+    font-size: small;
+    color: white;
+}
+
+.boton{
+    background-color: orange;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 75%;
+    height: 25%;
+    border-radius: 10px;
+    border-style: dashed;
+}
+
+#pieDePagina{
+    color: wheat;
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    padding: 10px;
+}

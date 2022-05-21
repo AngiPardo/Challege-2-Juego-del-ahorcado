@@ -1,0 +1,47 @@
+
+#colorDelBody{
+    background: linear-gradient(to left, gray, black);
+    
+}
+
+#logoIrreverente{
+    height: 325%;
+    width:25%;
+}
+
+.tituloPrincipal{
+    padding-left: 30px;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.bloque1{
+    position: absolute;
+    top: 110px;
+    left: 240px;
+    height: 90%;
+    width: 67%;
+}
+
+#canvasDelDibujo{
+    background-color: lightgray;
+    
+}
+
+.boton{
+    background-color: orange;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 300px;
+}
+
+#pieDePagina{
+    color: gray;
+    position: absolute;
+    top: 410px;
+    left: 70px;
+    padding: 10px;
+}
