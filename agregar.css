@@ -80,7 +80,7 @@
     }
 
     #cajaDeTexto{
-        width: 78%;
+        width: 88%;
         height: 40%;
         margin-top: 15%;
     }
@@ -95,7 +95,7 @@
         font-size: large;
         font-family: sans-serif;
         font-weight: bold;
-        width: 80%;
+        width: 90%;
         height: 6%;
         border-radius: 10px;
         border-style: dashed;
