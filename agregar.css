@@ -74,7 +74,7 @@
     .bloque1{
         position: absolute;
         top:80px;
-        left: 60px;
+        left: 75px;
         height: 70%;
         width: 75%;
     }
@@ -107,8 +107,8 @@
         color: wheat;
         font-size: x-small;
         position: absolute;
-        top: 450px;
-        left: 50px;
+        top: 470px;
+        left: 65px;
         width: 80%;
         padding: 10px;
     }    
