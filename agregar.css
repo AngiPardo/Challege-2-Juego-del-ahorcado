@@ -73,15 +73,76 @@
     
     .bloque1{
         position: absolute;
-        top:80px;
-        left: 75px;
+        top:10%;
+        left: 12%;
         height: 70%;
         width: 75%;
     }
 
     #cajaDeTexto{
+        width: 98%;
+        height: 60%;
+        margin-top: 15%;
+    }
+    
+    #condicionesRestriccionesDeUso{
+        font-size: x-small;
+        color: white;
+    }
+    
+    .boton{
+        background-color: orange;
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bold;
+        width: 100%;
+        height: 10%;
+        border-radius: 10px;
+        border-style: dashed;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #pieDePagina{
+        color: wheat;
+        font-size: x-small;
+        position: absolute;
+        top: 85%;
+        left:10%;
+        width: 80%;
+        padding: 10px;
+    }    
+
+}
+
+@media screen and (min-width:481px) and (max-width:900px){
+
+    #logoIrreverente{
+        padding-left: 50px;
+        padding-top: 10px;
+        width: 50%;
+        height: 50%;
+    }
+    
+    .tituloPrincipal{
+        padding-left: 30px;
+        background-color: yellow;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+    
+    .bloque1{
+        position: absolute;
+        top:4%;
+        left: 12%;
+        height: 70%;
+        width: 90%;
+    }
+
+    #cajaDeTexto{
         width: 88%;
-        height: 40%;
+        height: 23%;
         margin-top: 15%;
     }
     
@@ -96,7 +157,7 @@
         font-family: sans-serif;
         font-weight: bold;
         width: 90%;
-        height: 6%;
+        height: 12%;
         border-radius: 10px;
         border-style: dashed;
         margin-top: 5px;
@@ -107,8 +168,8 @@
         color: wheat;
         font-size: x-small;
         position: absolute;
-        top: 470px;
-        left: 65px;
+        top: 91%;
+        left: 10%;
         width: 80%;
         padding: 10px;
     }    
