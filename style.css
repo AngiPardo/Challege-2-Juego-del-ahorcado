@@ -18,7 +18,7 @@
 .bloque1{
     position: absolute;
     top: 90px;
-    left: 470px;
+    left: 400px;
     height: 90%;
     width: 45%;
 }
@@ -35,7 +35,7 @@
     font-weight: bold;
     width: 75%;
     height: 20%;
-    margin-top: 5%;
+    margin-top: 3%;
     border-radius: 10px;
     border-style: dashed;
 }
@@ -43,7 +43,7 @@
 #pieDePagina{
     color: wheat;
     position: absolute;
-    top: 490px;
+    top: 400px;
     left: 70px;
     padding: 10px;
 }
@@ -54,7 +54,7 @@
     #logoIrreverente{
         padding-left: 50px;
         padding-top: 10px;
-        width: 50%;
+        width: 75%;
         height: 50%;
     }
 
@@ -68,7 +68,7 @@
     
     .bloque1{
         position: absolute;
-        top:80px;
+        top:25%;
         left: 60px;
         height: 90%;
         width: 80%;
@@ -84,8 +84,8 @@
         font-size: large;
         font-family: sans-serif;
         font-weight: bold;
-        width: 80%;
-        height: 8%;
+        width: 90%;
+        height: 20%;
         border-radius: 10px;
         border-style: dashed;
     }
@@ -94,9 +94,64 @@
         color: wheat;
         font-size: x-small;
         position: absolute;
-        top: 300px;
+        top: 80%;
         left: 50px;
         width: 90%;
         padding: 10px;
     }  
 }
+
+
+@media screen and (min-width:481px) and (max-width:900px){
+    
+    #logoIrreverente{
+        padding-left: 50px;
+        padding-top: 10px;
+        width: 40%;
+        height: 50%;
+    }
+
+    .tituloPrincipal{
+        padding-left: 30px;
+        background-color: yellow;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+    
+    .bloque1{
+        position: absolute;
+        top:20%;
+        left: 60px;
+        height: 90%;
+        width: 90%;
+    }
+    
+    #condicionesRestriccionesDeUso{
+        font-size: x-small;
+        color: white;
+    }
+    
+    .boton{
+        background-color: orange;
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bold;
+        width: 90%;
+        height: 20%;
+        margin-top: 2%;
+        border-radius: 10px;
+        border-style: dashed;
+    }
+    
+    #pieDePagina{
+        color: wheat;
+        font-size: x-small;
+        position: absolute;
+        top: 80%;
+        left: 50px;
+        width: 90%;
+        padding: 10px;
+    }  
+}
+
